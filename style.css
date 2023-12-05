@@ -15,6 +15,7 @@ header {
     height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 1rem;
 }
 
@@ -86,4 +87,46 @@ label i {
 .search-bar {
     display: flex;
     align-items: center;
+}
+.language {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.language-img {
+    height: 0.8rem;
+    width: 0.8rem;
+}
+
+.language p {
+    font-size: 0.8rem;
+    margin-left: 0.2rem;
+}
+
+.language i {
+    margin-top: 0.4rem;
+    margin-left: 0.2rem;
+}
+
+.account-sign {
+    color: #fff;
+}
+
+.account-sign p {
+    font-size: 0.75rem;
+    margin-left: 0.2rem;
+}
+
+.cart {
+    color: #fff;
+}
+
+.cart i {
+    font-size: 1.75rem;
+}
+
+.cart h5 {
+    display: inline;
+    text-align: center;
 }
