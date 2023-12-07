@@ -130,3 +130,37 @@ label i {
     display: inline;
     text-align: center;
 }
+
+.down-nav-list {
+    display: flex;
+    list-style: none;
+    padding-inline: 1rem;
+    height: 42px;
+    align-items: center;
+
+}
+
+.down-nav-list li {
+    padding-inline: 0.5rem;
+}
+
+.down-nav-list .list {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 600;
+}
+.list {
+    padding-block: 0.75rem;
+}
+.down-nav-list i {
+    font-size: 1rem;
+    color: #fff;
+    
+}
+
+#ham {
+    margin: 0;
+    padding: 0.5rem 0.51rem;
+}
